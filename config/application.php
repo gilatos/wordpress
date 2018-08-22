@@ -81,3 +81,33 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+/*
+Plugin Name: PostgreSQL for WordPress (PG4WP)
+Plugin URI: http://www.hawkix.net
+Description: PG4WP is a special 'plugin' enabling WordPress to use a PostgreSQL database.
+Version: 1.3.1
+Author: Hawk__
+Author URI: http://www.hawkix.net
+License: GPLv2 or newer.
+*/
+
+if( !defined('PG4WP_ROOT')) {
+// You can choose the driver to load here
+    define('DB_DRIVER', 'pgsql'); // 'pgsql' or 'mysql' are supported for now
+
+// Set this to 'true' and check that `pg4wp` is writable if you want debug logs to be written
+    define( 'PG4WP_DEBUG', false);
+// If you just want to log queries that generate errors, leave PG4WP_DEBUG to "false"
+// and set this to true
+    define( 'PG4WP_LOG_ERRORS', false);
+
+// If you want to allow insecure configuration (from the author point of view) to work with PG4WP,
+// change this to true
+    define( 'PG4WP_INSECURE', false);
+
+// This defines the directory where PG4WP files are loaded from
+    define( 'PG4WP_ROOT', WP_CONTENT_DIR.'/plugins/postgresql-for-wordpress/pg4wp');
+
+    define( 'WP_USE_EXT_MYSQL', true);
+} // Protection against multiple loading

@@ -1,0 +1,3 @@
+[submodule "web/app/themes/simplicity2"]
+	path = web/app/themes/simplicity2
+	url = https://github.com/yhira/simplicity2.git

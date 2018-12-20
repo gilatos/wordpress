@@ -59,14 +59,14 @@ $table_prefix = env('DB_PREFIX') ?: 'wp_';
 /**
  * Authentication Unique Keys and Salts
  */
-define('AUTH_KEY', env('AUTH_KEY'));
-define('SECURE_AUTH_KEY', env('SECURE_AUTH_KEY'));
-define('LOGGED_IN_KEY', env('LOGGED_IN_KEY'));
-define('NONCE_KEY', env('NONCE_KEY'));
-define('AUTH_SALT', env('AUTH_SALT'));
-define('SECURE_AUTH_SALT', env('SECURE_AUTH_SALT'));
-define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
-define('NONCE_SALT', env('NONCE_SALT'));
+define('AUTH_KEY', env('BIv`7vKbT=|+s~?*Y0/h@Xo+a{l<8-8iF>wUuNXx qa;c?RJom@&f{<m`7yYsD<v'));
+define('SECURE_AUTH_KEY', env('3O.P*J;|]g(plBqXs-m]jB;Vh&w@rBH.M_>%D@.Q`|-V|@R4G+L3YH[gx-P+4o)6'));
+define('LOGGED_IN_KEY', env('8[U90f 3_6o7AVJY_^ys~o $a4/|HJM.w_|&t@/.aT]i}JG 2;.=T(0={,1di)6V''));
+define('NONCE_KEY', env('S-mHW?i`vDW344#Wqmmh}kG/WPY|vAK;t-3J=ea3Skr6]Y1`x*As{.Pv0/9&saki'));
+define('AUTH_SALT', env('`>97t6iV#|_+b2gJ+NpTU&:LtUD5m?ao[HO*D*A<wT0G+3ZKmH*(?_f|n&Fs&_nQ'));
+define('SECURE_AUTH_SALT', env('?+57]d6V8{nu4Scl^*<7w@1OkvQyQFb=| E.9TU+&X/1(=g|HKje{3SzMO{G(E>/'));
+define('LOGGED_IN_SALT', env('c!{~OfS,7&g1mC<7+42_,f53ief/kZ~[-D@Rj~2D5 8>suJyF{/H_-_?x03VxU@b'));
+define('NONCE_SALT', env('@fv7,@>j%L^XC,[t/ADNdW+96O-MwyE8f-CeQk|6~9hYW-HzR9l50.tMd~Sp#WVi'));
 
 /**
  * Custom Settings
